@@ -163,6 +163,25 @@ h2{
     align-items: center;
 }
 @media (max-width: 600px){
+
+    nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        overflow: hidden;
+        padding: 5px;
+    }
+    
+    nav a {
+        float: left;
+        display: block;
+        color: #666666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
     .images img{
         width: 90%;
         margin : 0.25%;
