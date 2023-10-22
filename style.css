@@ -169,6 +169,20 @@ h2{
         margin-bottom: 20px;
     }
 
+    #div2{
+        width: auto;
+         height: auto;
+          background-color: transparent;
+           background-image: radial-gradient(rgb(11, 9, 10) 1px, transparent 1px), radial-gradient(rgb(11, 9, 10) 1px, rgb(177, 167, 166) 1px); background-position: 0px 0px, 30px 30px; 
+           background-size: 60px 60px; 
+           border-radius: 0px;
+           color: black;
+           display: flex;
+            flex-direction: column;
+           justify-content: center;
+           padding: 50px;
+    }
+
 
 .social-links {
     margin-top: 10px;
