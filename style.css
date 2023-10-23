@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "sedwich";
+    src: url(/SedgwickAveDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "molle";
+    src: url(/Molle-Italic.ttf);
+}
+@font-face {
+    font-family: "salsa";
+    src: url(/Salsa-Regular.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,6 +35,7 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 30px;
 }
 
 nav a:hover {
@@ -42,10 +56,23 @@ footer {
     bottom: 0;
     width: 100%;
 }
+#time{
+    font-size:xx-large;
+    font-family: "salsa";
+    font-weight: bold;
+}
+#unleash{
+    font-size: large;
+    font-weight: bold;
+    /* font-family: "salsa"; */
+}
 footer *{
     color: black;
 }
 
+button{
+    border-radius: 30px;
+}
 footer a:hover {
     background-color: #ddd;
 }
@@ -113,16 +140,19 @@ h2{
     padding: 0;
     margin: 0;
 }
+
 #Customisation{
+    font-family: "sedwich",sans-serif;
     background-color: rgb(245, 243, 244);
     color: rgb(164, 22, 26);
     margin:0%;
-    padding: 11%;
+    padding: 5%;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 130%;
 }
 #Customisation *{
     margin: 0%;
@@ -155,10 +185,12 @@ h2{
        padding: 50px;
 }
 #div2 h2{
+    margin: 2%;
     font-size: 6em;
+    font-family: "salsa";
 }
 #div2 p{
-    max-width: 50%;
+    max-width: 70%;
     font-size: 20px;
 }
 #flexbox2{
@@ -199,7 +231,7 @@ h2{
         font-size: 5em;
     }
     #div2 p{
-        max-width: 50%;
+        max-width: 90%;
         font-size: 20px;
     }
 .social-links {
@@ -213,5 +245,6 @@ h2{
     text-decoration: none;
     font-size: 15px;
 }
+
 
 }
