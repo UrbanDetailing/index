@@ -119,6 +119,7 @@ h2{
     
     color: white;
     text-decoration: none;
+    padding: 0px 5px;
 }
 #homeIcon{
     height: 45px;
@@ -236,6 +237,7 @@ h2{
                 .social-links {
                     margin-top: 10px;
                     display: block;
+                    margin-left: 0px;
                 }
 
                 .social-links a {
