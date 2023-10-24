@@ -204,6 +204,7 @@ h2{
                     }
 
                     #div2{
+
                         width: auto;
                         height: auto;
                         background-color: transparent;
@@ -216,6 +217,9 @@ h2{
                         justify-content: center;
                         padding: 50px;
                     }
+                    #div2 h2{
+                        font-size: 4em;
+                    }
                     #analytics{
                         width: 90vw;
                         margin : 0px 20px 0px 0px;
@@ -224,10 +228,7 @@ h2{
 
                         font-size: 5em;
                     }
-                    
-                    #div2 h2{
-                        font-size: 5em;
-                    }
+        
                     #div2 p{
                         max-width: 90%;
                         font-size: 20px;
