@@ -63,7 +63,7 @@ footer {
 }
 #unleash{
     font-size: large;
-    font-weight: bold;
+    font-weight: bold; 
     /* font-family: "salsa"; */
 }
 footer *{
@@ -122,12 +122,13 @@ h2{
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: 20px;;
+    display: inline;
+    margin-left: 65vw;
 }
 
 .social-links a {
-    display: inline-block;
-    margin-right: 10px;
+    
     color: black;
     text-decoration: none;
 }
@@ -163,8 +164,10 @@ h2{
     margin: 10px;
 }
 .images img{
-    width:30%;
+    width:25vw;
+    height:25vw;
     margin: 0.25%;
+    border-radius: 10px;
 }
 #flexbox{
     height: fit-content;
@@ -202,49 +205,56 @@ h2{
 }
 @media (max-width: 600px){
     
-    .images img{
-        width: 90%;
-        margin : 0.25%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+                    .images img{
+                        width: 90%;
+                        margin : 0.25%;
+                        height: auto;
+                        margin-bottom: 20px;
+                    }
+                    #Customisation{
+                        font-size: large;
+                    }
 
-    #div2{
-        width: auto;
-         height: auto;
-          background-color: transparent;
-           background-image: radial-gradient(rgb(11, 9, 10) 1px, transparent 1px), radial-gradient(rgb(11, 9, 10) 1px, rgb(177, 167, 166) 1px); background-position: 0px 0px, 30px 30px; 
-           background-size: 60px 60px; 
-           border-radius: 0px;
-           color: black;
-           display: flex;
-            flex-direction: column;
-           justify-content: center;
-           padding: 50px;
-    }
-    h2{
+                    #div2{
+                        width: auto;
+                        height: auto;
+                        background-color: transparent;
+                        background-image: radial-gradient(rgb(11, 9, 10) 1px, transparent 1px), radial-gradient(rgb(11, 9, 10) 1px, rgb(177, 167, 166) 1px); background-position: 0px 0px, 30px 30px; 
+                        background-size: 60px 60px; 
+                        border-radius: 0px;
+                        color: black;
+                        display: flex;
+                            flex-direction: column;
+                        justify-content: center;
+                        padding: 50px;
+                    }
+                    #analytics{
+                        width: 90vw;
+                        margin : 0px 20px 0px 0px;
+                    }
+                    h2{
 
-        font-size: 5em;
-    }
-    
-    #div2 h2{
-        font-size: 5em;
-    }
-    #div2 p{
-        max-width: 90%;
-        font-size: 20px;
-    }
-.social-links {
-    margin-top: 10px;
-}
+                        font-size: 5em;
+                    }
+                    
+                    #div2 h2{
+                        font-size: 5em;
+                    }
+                    #div2 p{
+                        max-width: 90%;
+                        font-size: 20px;
+                    }
+                .social-links {
+                    margin-top: 10px;
+                }
 
-.social-links a {
-    display: inline-block;
-    margin-right: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-}
+                .social-links a {
+                    display: inline-block;
+                    margin-right: 10px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 15px;
+                }
 
 
 }
