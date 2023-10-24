@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "sedwich";
+    font-family: SedgwickAveDisplay;
     src: url(/SedgwickAveDisplay-Regular.ttf);
 }
 @font-face {
@@ -143,7 +143,7 @@ h2{
 }
 
 #Customisation{
-    font-family: "sedwich",sans-serif;
+    font-family: SedgwickAveDisplay,Arial, Helvetica, sans-serif;
     background-color: rgb(245, 243, 244);
     color: rgb(164, 22, 26);
     margin:0%;
