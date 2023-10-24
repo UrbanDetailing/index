@@ -117,7 +117,7 @@ h2{
 
 .social-links a {
     
-    color: black;
+    color: white;
     text-decoration: none;
 }
 #homeIcon{
@@ -235,6 +235,7 @@ h2{
                     }
                 .social-links {
                     margin-top: 10px;
+                    display: block;
                 }
 
                 .social-links a {
